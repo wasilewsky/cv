@@ -1,5 +1,6 @@
 body{
   background-color: #DFF6FF;
+  margin: 0;
 }
 h1{
   color: #1363DF;
@@ -13,4 +14,7 @@ hr{
   border-color: #47B5FF;
   border-width: 5px;
   width: 10%;
+}
+.tajemnica{
+  text-decoration: underline;
 }
