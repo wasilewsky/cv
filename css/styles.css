@@ -1,5 +1,6 @@
 body{
   background-color: #DFF6FF;
+  color: #06283D;
   margin: 0;
   text-align: center;
   font-family: sans-serif;
@@ -16,20 +17,30 @@ h2{
   font-family: 'Ubuntu Mono', monospace;
   font-size: 2em;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 hr{
   border-style: none;
-  border-top-style: dotted;
+  border-top-style: dashed;
   border-color: #47B5FF;
   border-width: 5px;
-  width: 10%;
+  width: 20%;
+}
+a{
+  color: #1363DF;
+  font-family: 'Ubuntu Mono', monospace;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #06283D;
 }
 .profpic{
-  padding-top: 10px;
+  padding: 30px;
   border-radius: 100%;
 }
 .mtn{
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 50px;
 }
 .cloud1{
@@ -39,16 +50,71 @@ hr{
 }
 .cloud2{
   position: absolute;
-  left: 300px;
-  bottom: 530px;
+  left: 250px;
+  bottom: 600px;
 }
 .top-container{
   position: relative;
   padding-top: 100px;
 }
-/*.middle-container{
-
+.middle-container{
+  margin: 100px 0;
 }
 .bottom-container{
-
-}*/
+  background-color: #47B5FF;
+  padding: 50px 0 20px;
+}
+.copyright{
+  color: #1363DF;
+  font-size: 0.6em;
+  padding: 20px 0;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.web-dev{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.gaming{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+	box-shadow: 0px 0px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:10px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.o-mnie{
+  width: 30%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.kontakt{
+  width: 30%;
+  margin: 40px auto 60px;
+}
