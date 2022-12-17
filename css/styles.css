@@ -1,12 +1,21 @@
 body{
   background-color: #DFF6FF;
   margin: 0;
+  text-align: center;
+  font-family: sans-serif;
 }
 h1{
   color: #1363DF;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5em;
+  margin: 50px, auto, 0px, auto;
+  line-height: 2;
 }
-h3{
+h2{
   color: #1363DF;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2em;
+  font-weight: normal;
 }
 hr{
   border-style: none;
@@ -15,6 +24,31 @@ hr{
   border-width: 5px;
   width: 10%;
 }
-.tajemnica{
-  text-decoration: underline;
+.profpic{
+  padding-top: 10px;
+  border-radius: 100%;
 }
+.mtn{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.cloud1{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.cloud2{
+  position: absolute;
+  left: 300px;
+  bottom: 530px;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+}
+/*.middle-container{
+
+}
+.bottom-container{
+
+}*/
